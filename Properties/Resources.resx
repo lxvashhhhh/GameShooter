@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ammo:_" xml:space="preserve">
+    <value>Количество патронов: </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AmmoPicture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\ammo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BulletSpeed:_" xml:space="preserve">
+    <value>Скорость полёта пули: </value>
+  </data>
+  <data name="BuyHandgunFor" xml:space="preserve">
+    <value>Купить пистолет за </value>
+  </data>
+  <data name="BuyRifleFor" xml:space="preserve">
+    <value>Купить автомат за </value>
+  </data>
+  <data name="BuyShotgunFor" xml:space="preserve">
+    <value>Купить дробовик за </value>
+  </data>
+  <data name="Coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\coin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damage:_" xml:space="preserve">
+    <value>Урон: </value>
+  </data>
+  <data name="DamageBoost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\damageboost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DamageBoosterImpact" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DamageBoosterTime" xml:space="preserve">
+    <value>5000</value>
+  </data>
+  <data name="Equip" xml:space="preserve">
+    <value>Экипировать</value>
+  </data>
+  <data name="Equipped" xml:space="preserve">
+    <value>Экипировано</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="ExitGame" xml:space="preserve">
+    <value>Выйти из игры</value>
+  </data>
+  <data name="GameTitle" xml:space="preserve">
+    <value>Danger Zombies</value>
+  </data>
+  <data name="HandgunAmmo" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="HandgunBullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\handgunbullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HandgunBulletSpeed" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="HandgunCost" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="HandgunDamage" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="HandgunPicture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\handgunpicture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HandgunRecoil" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="HandgunReload" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="HealthBoost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\healthboost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealthBoosterImpact" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="HealthBoosterTime" xml:space="preserve">
+    <value>5000</value>
+  </data>
+  <data name="HeavyZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\heavyzombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeavyZombieCoins" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="HeavyZombieDamage" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="HeavyZombieSpeed" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="HeroBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\survivor-idle_knife_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeroHandgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\herohandgun1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeroHandgun1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\herohandgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeroNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\heronormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeroRifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\herorifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeroShotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\heroshotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeroSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\herosmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\mainmenubackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainMenuLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\mainmenulogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MediumZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\mediumzombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MediumZombieCoins" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MediumZombieDamage" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MediumZombieSpeed" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Recoil:_" xml:space="preserve">
+    <value>Задержка между выстрелами: </value>
+  </data>
+  <data name="Reload:_" xml:space="preserve">
+    <value>Время перезарядки: </value>
+  </data>
+  <data name="RifleAmmo" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="RifleBullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\riflebullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RifleBulletSpeed" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="RifleCost" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="RifleDamage" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="RiflePicture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\riflepicture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RifleRecoil" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RifleReload" xml:space="preserve">
+    <value>175</value>
+  </data>
+  <data name="ShotgunAmmo" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ShotgunBullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\shotgunbullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShotgunBulletSpeed" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ShotgunCost" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="ShotgunDamage" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ShotgunPicture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\shotgunpicture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShotgunRecoil" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="ShotgunReload" xml:space="preserve">
+    <value>175</value>
+  </data>
+  <data name="SmallZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\smallzombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmallZombieCoins" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SmallZombieDamage" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SmallZombieSpeed" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SpeedBoost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sprites\speedboost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeedBoosterImpact" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SpeedBoosterTime" xml:space="preserve">
+    <value>10000</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>Начать игру</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="_Coins" xml:space="preserve">
+    <value> монет</value>
+  </data>
+</root>
